@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>BLADES - jQuery Banner Rotator</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content=""/>
+    <style type="text/css">
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="http://www.forbus.eu/finalx/css/blades.css" type="text/css" />
+<script src="js/jquery-1.6.min.js" type="text/javascript"></script>
+    <script type="text/javascript">jQuery.noConflict();</script>
+    <script src="http://www.forbus.eu/finalx/js/jquery.clip-animation.js" type="text/javascript"></script>
+    <script src="http://www.forbus.eu/finalx/js/jquery.blades-banner.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var settings = {
+            width: 1500,
+            height:600,
+            cols: 7,
+            rows: 3,
+            autoPlay: true,
+            randomizeSlides: false,
+            thumbSpacing: 0,
+            slideDelay:3000,
+            useArrows: true,
+            arrowPadding: 0,
+            transitionType: "basicFadeRandom",
+            linkTarget: "blank"
+        };
+        jQuery(document).ready(function () {
+            jQuery.blades(settings);
+            settings = null;
+        });
+    </script>
+</head>
+<body>
+    <div id="cj-banner">
+        <ul>
+			<li title="http://www.forbus.eu/finalx/images/19.jpg">
+			<ul class="align-left" title=""></ul>
+				<ul class="align-right">
+					<li class="20x75" style="color: #000000;"><p style="text-align:left !important;margin-top:0;"><strong>FELICIDADE</strong><br>um ambiente positivo e descontraído para otimizar a sua aprendizagem</p></li>
+				</ul>
+            </li>
+			<li title="http://www.forbus.eu/finalx/images/16-new.jpg">
+                <ul class="align-left" title=""></ul>
+				<ul class="align-right">
+					<li class="20x75" style="color: #000000"><p style="text-align:left !important;margin-top:0;"><strong>INSPIRADO</strong><br>desfrutar de interações sociais entre pares positivo,<br>alimentando seu interesse e motivação</p></li>     
+				</ul>
+            </li>
+            <li title="http://www.forbus.eu/finalx/images/15-new.jpg">
+				<ul class="align-left" title=""></ul>
+				<ul class="align-right">
+					<li class="20x75" style="color: #000000"><p style="text-align:left !important;margin-top:0;"><strong>CUMPRIMENTO</strong><br>cumprir o seu potencial, e experimentar um programa altamenente gratificante</p></li>     
+				</ul>
+            </li>
+            <li title="http://www.forbus.eu/finalx/images/xxx.jpg">
+				<ul class="align-left" title=""></ul>
+				<ul class="align-right">
+					<li class="20x75" style="color: #000000"><p style="text-align:left !important;margin-top:0;"><strong>CUMPRIMENTO</strong><br>cumprir o seu potencial, e experimentar um programa altamenente gratificante</p></li>     
+				</ul>
+            </li>
+        </ul>
+        <noscript>
+            <img src="http://www.forbus.eu/finalx/images/1.jpg" width="1500" height="300" alt="BLADES jQuery Banner Rotator" />
+        </noscript>
+    </div>
+</body>
+</html>
